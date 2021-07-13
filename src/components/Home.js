@@ -26,12 +26,12 @@ export const Home = () => {
             <Loader size={300} color={"#fa8701"} loading={loading} />
           </div>
         ) : (
-        <>  
-          <Jumbotron/>
-          <Summary_1 />
-          <Summary_2 />
-          <Footer />
-        </>
+          <>
+            <Jumbotron />
+            <Summary_1 />
+            <Summary_2 />
+            <Footer />
+          </>
         )
       }
     </>
