@@ -29,7 +29,7 @@ export const Contacts = () => {
         <div>
             {
                 loading ? (
-                    <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#27394a"} loading={loading} /></div>
+                    <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#fa8701"} loading={loading} /></div>
                 ) : (<>
 
 

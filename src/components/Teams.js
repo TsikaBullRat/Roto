@@ -1,9 +1,29 @@
 import profile from '../assets/profile.png';
 import { Headline } from './Pieces/Headline';
+import React, { useState, useEffect } from 'react'
+import Loader from 'react-spinners/HashLoader';
 
 export const Teams = () =>{
+    
+    const [loading, setLoading] = useState(false);
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 3000)
+    },
+        []
+    );
+
     return(
         <> 
+         {
+        loading ? (
+          <div className="text-center" style={{ marginTop: 300 }}>
+            <Loader size={300} color={"#fa8701"} loading={loading} />
+          </div>
+        ) : (
+        <>  
                         <Headline headline="Our Team" />
                         <p className="text-center">We aid in changing peoples lives for the better,to ensure that your physical ,emotional and mental health is cared for. </p>
 
@@ -30,6 +50,9 @@ export const Teams = () =>{
                         </div>
                     </div>
                 </div>
+                </>
+        )
+      }
         </>
     )
 }
