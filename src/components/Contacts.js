@@ -33,9 +33,9 @@ export const Contacts = () => {
                 ) : (<>
 
 
-                    <div> <Headline headline="Get In Touch" />
+                    <div style={{ marginBottom: 160, marginTop:80 }}> <Headline headline="Get In Touch" />
 
-                        <p className="text-center">Please give us a call, drop us an email or fill out our form and we will get back to you.</p>
+                        <p className="text-center" style={{fontSize:20}}>Please give us a call, drop us an email or fill out our form and we will get back to you.</p>
 
                         <div className="row">
 
@@ -73,7 +73,8 @@ export const Contacts = () => {
 
 
 
-                        </div></div>
+                        </div>
+                    </div>
 
                     <Footer></Footer>
                 </>)}

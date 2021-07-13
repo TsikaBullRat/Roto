@@ -2,7 +2,7 @@ import { Headline } from "./Headline"
 
 export const Background = () => {
     return(
-        <div className="text-center col-sm-12 " style={{padding: 100}}>
+        <div className="text-center col-sm-12" style={{paddingLeft: 300, paddingRight: 300, fontSize:21}}>
         <Headline headline="Who are we?" />
         <p>
             The ROTO Centre was established as a non-

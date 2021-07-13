@@ -26,7 +26,7 @@ export const Programmes = () => {
 
                         <Headline headline="Give A Smile" />
 
-                        <p className="text-center">We offer a variety of programs at our
+                        <p className="text-center" style={{fontSize:20}}>We offer a variety of programs at our
                             centre to meet the special needs of those
                             we serve.
                         </p> <br></br>
