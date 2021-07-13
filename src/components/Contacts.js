@@ -14,14 +14,14 @@ export const Contacts = () => {
     },
         []
     );
-    function sendEmail(e){
+    function sendEmail(e) {
         e.preventDefault();
 
         mailjs.sendForm(
             'service_7yvj03f',
             'template_au3n66h',
             e.target, 'user_6J1Ea28T23gHtil5EVwgk'
-        ).then(res =>{
+        ).then(res => {
             console.log(res)
         }).catch(err => console.log(err))
     }
@@ -33,7 +33,7 @@ export const Contacts = () => {
                 ) : (<>
 
 
-                    <div> <Headline headline="Get in touch" />
+                    <div> <Headline headline="Get In Touch" />
 
                         <p className="text-center">Please give us a call, drop us an email or fill out our form and we will get back to you.</p>
 
@@ -44,11 +44,11 @@ export const Contacts = () => {
                                 <div className="logos">
 
                                     <div className="mt-4">
-                                        <div className='Space-around'> <i className="bi bi-envelope-fill"></i> Lifeline@gmailcom</div>
-                                        <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0530501067  <br></br></div>
-                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> 1 Lynch St.Homestead,Kimberley,8301 <br></br></div>
-                                        <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com "> facebook.com </a></div>
-                                        <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https://www.@Lifeline_nc "> @Lifeline_nc</a></div>
+                                        <div className='Space-around'> <i className="bi bi-envelope-fill"></i> Add</div>
+                                        <div className='Space-around'> <i className="bi bi-telephone-fill"></i> Add <br></br></div>
+                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Add <br></br></div>
+                                        <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com ">Add </a></div>
+                                        <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https://www.@Lifeline_nc ">Add </a></div>
 
 
                                     </div>
@@ -62,7 +62,7 @@ export const Contacts = () => {
                                         <input type="email" placeholder="Email" className="form-control w-50" name="email" aria-describedby="emailHelp" />
                                         <input type="text" placeholder="Subject" className="form-control w-50 mt-3" name="subject" aria-describedby="emailHelp" /> <br></br>
                                         <textarea className="form control w-50 mt-3" name="matter" rows="3" placeholder="Message"></textarea> <br></br>
-                                        <button name="submit" type="submit" className="btn">send</button> <br></br>
+                                        <button name="submit" type="submit" className="btn">Send</button> <br></br>
                                     </form>
                                 </div>
                                 <div>
