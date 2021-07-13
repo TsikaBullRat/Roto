@@ -27,7 +27,7 @@ function AboutUs() {
                     <>
                         <Background />
                         <Goals />
-                        <Footer />
+                        <div style={{marginTop: 100}}><Footer/></div>
                     </>
                 )
             }
