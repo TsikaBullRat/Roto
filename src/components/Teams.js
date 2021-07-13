@@ -28,7 +28,7 @@ export const Teams = () =>{
                         <Headline headline="Our Team" />
                         <p className="text-center" style={{fontSize:20}}>We operate a non-profit multipurpose facility governed by an active 3 member volunteer bored of directors. </p>
 
-                <div className="row justify-content-center" style={{ marginBottom: 120 }}>
+                <div className="row justify-content-center">
                     <div className="card col-lg-2 col-md-6 col-sm-12 mt-4" style={{ width: '20rem', marginLeft: 25, marginRight: 25 }}>
                         <img src={profile} style={{ width: 250, height: 250 }} />
                         <div className="card-body">
@@ -51,7 +51,7 @@ export const Teams = () =>{
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <div style={{marginTop: 190}}><Footer/></div>
                 </>
         )
       }
