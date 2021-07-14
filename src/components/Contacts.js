@@ -32,10 +32,9 @@ export const Contacts = () => {
                     <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#fa8701"} loading={loading} /></div>
                 ) : (<>
 
-
                     <div> <Headline headline="Get In Touch" />
 
-                        <p className="text-center" style={{fontSize:20}}>Please give us a call, drop us an email or fill out our form and we will get back to you.</p>
+                        <p className="text-center" style={{ fontSize: 20 }}>Please give us a call, drop us an email or fill out our form and we will get back to you.</p>
 
                         <div className="row">
 
@@ -46,15 +45,13 @@ export const Contacts = () => {
                                     <div className="mt-4">
                                         <div className='Space-around'> <i className="bi bi-envelope-fill"></i> Add</div>
                                         <div className='Space-around'> <i className="bi bi-telephone-fill"></i> Add <br></br></div>
-                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Add <br></br></div>
+                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Barkley West <br></br></div>
                                         <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com ">Add </a></div>
                                         <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https://www.@Lifeline_nc ">Add </a></div>
-
-
                                     </div>
-
                                 </div>
                             </div>
+
                             <div className="col-lg-6  col-sm-12">
 
                                 <div className="mt-5">
@@ -66,22 +63,13 @@ export const Contacts = () => {
                                     </form>
                                 </div>
                                 <div>
-
                                 </div>
                             </div>
-
-
-
-
                         </div>
                     </div>
-
-                    <div style={{marginTop: 220}}><Footer/></div>
+                    <div style={{ marginTop: 190 }}><Footer /></div>
                 </>)}
         </div>
-
-
-
     )
 
     /*export default Contacts*/
