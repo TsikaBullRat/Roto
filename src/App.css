@@ -17,7 +17,7 @@ margin-left: 30%;
 
 i{
   font-size: 35px;
-  color: #fa8701;
+  color: #71bce4;
 }
 .my_button_jumbotron{
   width: 220px;
@@ -107,13 +107,10 @@ padding-top: 5%;
   height:0%;
 }
 .btn{
-  background: #fa8701;
-  color: #fff;
-}
-.btn:hover{
   background: #2a8bc8;
   color: #fff;
 }
+
 .outer_circle{
   border-radius: 50%;
   height: 36px;

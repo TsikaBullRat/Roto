@@ -11,17 +11,10 @@ function Footer() {
                 <div className='Space-around'> <i className="bi bi-geo-alt-fill" style={{ color: '#fff', fontSize: 24 }}></i> Barkley West <br></br></div>
                 <br />
             </div>
-            <div className="d-flex bg-dark col-lg-12 col-sm-12" style={{ fontSize: 15, color: '#fff' }}>
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                    <div>
-                        <p>Copyright: <b>Mlabs South Africa,</b> All rights reserved<br />Developed By: Keahara van Blerk and Ntsikayomzi Ngcakani</p>
-                    </div>
+            <div className="bg-dark col-lg-12 col-sm-12 mr-5% text-center " style={{ fontSize: 15, color: '#fff' }}>
 
-                </div>
-                <div className="d-flex col-lg-6 col-md-6 col-sm-12 justify-content-end">
-                    <a> <i className="bi bi-facebook mr-3" style={{ fontSize: 30, color: '#fff'}}></i></a>
-                    <a> <i className="bi bi-instagram ml-3" style={{ fontSize: 30, color: '#fff'}}></i></a>
-                </div>
+                <p>Copyright: <b>Mlabs South Africa,</b> All rights reserved<br />Developed By: Keahara van Blerk and Ntsikayomzi Ngcakani</p>
+
             </div>
         </div>
     );
