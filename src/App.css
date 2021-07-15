@@ -251,7 +251,10 @@ padding-top: 5%;
   border-radius: 0;
 }
 .summary1{
-  margin-left: 0%;
+  margin-left: -5%;
+}
+.form{
+  margin-left: 30%;
 }
 }
 /*Ornage: #fa8701*/
