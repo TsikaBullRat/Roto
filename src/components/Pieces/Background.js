@@ -2,8 +2,10 @@ import { Headline } from "./Headline"
 
 export const Background = () => {
     return (
-        <div className="text-center col-sm-12" style={{ paddingLeft: 300, paddingRight: 300, fontSize: 21 }}>
-            <Headline headline="Who Are We?" />
+        <>
+        <Headline headline="Who Are We?" />
+        <div className="d-flex text-center col-sm-12 justify-content-center background">
+            
             <p>
                 The ROTO Centre was established as a non-
                 profit organization in 2016 when Mpho
@@ -22,5 +24,6 @@ export const Background = () => {
                 variety of programs and services.
             </p>
         </div>
+        </>
     )
 }

@@ -6,8 +6,8 @@ function Summary() {
         <div>
             <Headline headline="We Are ROTO" />
 
-            <div className="row ml-5 pl-5">
-                <div className="col-sm-12 col-lg-4 text-center ml-5" >
+            <div className="row summary1">
+                <div className="col-sm-12 col-lg-4 text-center" >
                     <h3>What We're About</h3>
                     <p>The ROTO Centre was established as a non-
                         profit organization in 2016 when Mpho
@@ -29,7 +29,7 @@ function Summary() {
                         <button className="btn">Want To Know More</button>
                     </Link>
                 </div>
-                <div className="col-sm-12 col-lg-6  text-center ml-5" >
+                <div className="col-sm-12 col-lg-6  text-center" >
                     <h3>Our Mission</h3>
                     <ul>
                         <div className="list_repsonder">
