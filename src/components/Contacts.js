@@ -32,13 +32,13 @@ export const Contacts = () => {
                                 <div className='Space-around'> <i className="bi bi-envelope-fill"></i> mphomatthews597@gmail.com</div>
                                 <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221<br></br></div>
                                 <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Barkley West <br></br></div>
-                                <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com ">Add </a></div>
-                                <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https:// ">Add </a></div>
+                            
+                               
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-6  col-sm-12">
+                    <div className="col-lg-6  col-sm-12  ">
 
                         <div className="mt-5">
                             <form onSubmit={sendEmail} className="form">
