@@ -4,7 +4,7 @@ import Footer from './Pieces/Footer';
 import Tshegofatso from '../assets/deputy chairperson -Tshegofatso Modise.jpeg'
 import Kedibone from '../assets/treasurer-Kedibone Lekgetho.jpeg'
 import Sharon from '../assets/acting secretary- Sharon Nyirenda.jpeg'
- 
+
 
 export const Teams = () => {
 
