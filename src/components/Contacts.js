@@ -29,11 +29,11 @@ export const Contacts = () => {
                         <div className="logos">
 
                             <div className="mt-4">
-                                <div className='Space-around'> <i className="bi bi-envelope-fill"></i> Add</div>
-                                <div className='Space-around'> <i className="bi bi-telephone-fill"></i> Add <br></br></div>
+                                <div className='Space-around'> <i className="bi bi-envelope-fill"></i> mphomatthews597@gmail.com</div>
+                                <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221<br></br></div>
                                 <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Barkley West <br></br></div>
                                 <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com ">Add </a></div>
-                                <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https://www.@Lifeline_nc ">Add </a></div>
+                                <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https:// ">Add </a></div>
                             </div>
                         </div>
                     </div>
