@@ -9,6 +9,7 @@ function Summary() {
             <div className="row summary1">
                 <div className="col-sm-12 col-lg-4 text-center" >
                     <h3>What We're About</h3>
+
                     <p style={{ fontSize: 18 }}>The ROTO Centre was established as a non-
                         profit organization in 2016 when Mpho
                         Matthews, the founder, joined up with other
@@ -24,6 +25,7 @@ function Summary() {
                         West, serving more than 20 families each
                         day between Monday to Saturday with a
                         variety of programs and services.
+
                     </p>
                 </div>
                 <div className="col-sm-12 col-lg-6  text-center" >
@@ -35,16 +37,17 @@ function Summary() {
                             </h6>
                             <hr />
                         </div>
+
                         <div className="list_repsonder">
                             <li>
                                 Promote dignity and self-esteem
                             </li>
                             <hr />
                         </div>
+
                         <div className="list_repsonder">
                             <li>
                                 Foster independence and self-determination
-
                             </li>
                             <hr />
                         </div>
@@ -63,12 +66,12 @@ function Summary() {
                             <hr />
                         </div>
 
-
                     </ul>
 
                 </div>
 
             </div>
+
         </div>
     )
 }

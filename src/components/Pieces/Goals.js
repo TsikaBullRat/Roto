@@ -6,6 +6,7 @@ export const Goals = () => {
             <div className="mr-1 mb-n5 text-center">
                 <Headline headline="Reach One Teach One" />
             </div>
+
             <div class="row justify-content-center mt-4 mb-4">
                 <div className="text-center col-sm-12 col-lg-2">
                     <br />
@@ -13,6 +14,7 @@ export const Goals = () => {
                     <h5>ROTO’S CURRENT ENROLLMENT IS </h5>
                     <h5>8 STUDENTS.</h5>
                     <br />
+
                 </div>
                 <div className="text-center col-sm-12 col-lg-2">
                     <br />
@@ -20,6 +22,7 @@ export const Goals = () => {
                     <h5>2020 WE FINALLY HAVE OUR OWN SCHOOL PREMISES FROM DONATED LAND.
                     </h5>
                     <br />
+
                 </div>
                 <div className="text-center col-sm-12 col-lg-2">
                     <br />

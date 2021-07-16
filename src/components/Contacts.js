@@ -28,7 +28,7 @@ export const Contacts = () => {
 
                         <div className="logos">
 
-                            <div className="mt-4">
+                            <div className="mt-4" >
                                 <div className='Space-around'> <i className="bi bi-envelope-fill"></i> mphomatthews597@gmail.com</div>
                                 <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221</div>
                                 <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i>3182 Dahlia Street,De Beershoogte,Barkley West</div>
@@ -55,9 +55,7 @@ export const Contacts = () => {
                 </div>
             </div>
             <div style={{ marginTop: 190 }}><Footer /></div>
-
         </div>
     )
-
     /*export default Contacts*/
 }

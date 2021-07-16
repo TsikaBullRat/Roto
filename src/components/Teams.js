@@ -6,7 +6,6 @@ import Kedibone from '../assets/treasurer-Kedibone Lekgetho.jpeg'
 import Sharon from '../assets/acting secretary- Sharon Nyirenda.jpeg'
 import Mpho from '../assets/founder and manager-Mpho Matthews.jpg'
 
-
 export const Teams = () => {
 
     return (
@@ -46,11 +45,8 @@ export const Teams = () => {
                         <p>Sharon Nyirenda</p>
                     </div>
                 </div>
-
             </div>
-
             <div style={{ marginTop: 190 }}><Footer /></div>
         </>
-
     )
 }
