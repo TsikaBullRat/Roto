@@ -25,9 +25,7 @@ export const Contacts = () => {
                 <div className="row">
 
                     <div className="col-lg-6  col-sm-12 ">
-
                         <div className="logos">
-
                             <div className="mt-4" >
                                 <div className='Space-around'> <i className="bi bi-envelope-fill"></i> mphomatthews597@gmail.com</div>
                                 <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221</div>

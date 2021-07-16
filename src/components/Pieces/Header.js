@@ -8,8 +8,8 @@ function Header() {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse justify-content-end
-            " id="navbarNavAltMarkup">
+            
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <NavLink exact to="/" className="nav-link">Home</NavLink>
                     <NavLink exact to="/about" className="nav-link">About Us</NavLink>

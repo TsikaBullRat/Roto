@@ -19,7 +19,8 @@ export const Programmes = () => {
                 <p className="text-center" style={{ fontSize: 20 }}>We offer a variety of programs at our
                     centre to meet the special needs of those
                     we serve.
-                </p> <br></br>
+                </p>
+                <br></br>
                 <div className=" row ">
 
                     <div className="card ml-3 mt-4" style={{ width: '21rem' }}>
@@ -36,7 +37,6 @@ export const Programmes = () => {
                         <div className="card-body">
                             <h5 className="card-title">Nutritiuos in-centre meals </h5>
                             <p className="card-text">Nutrition is how food affects the health of the body.Food is comprised of macronutrients including protiein,carbohydrate and fat that not only offer calories to feul the body and give it energy but play specific roles in maintaining health.</p>
-
                         </div>
                     </div>
 
@@ -45,7 +45,6 @@ export const Programmes = () => {
                         <div className="card-body">
                             <h5 className="card-title">Crisis intervention and support group</h5>
                             <p className="card-text">Crisis intervention also refers to the methods used to offer immediate,short-term help to individuals who experience an event that produces emotional, mental, physical, and behavioral distress or problems.</p>
-
                         </div>
                     </div>
 

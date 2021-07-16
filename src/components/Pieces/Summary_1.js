@@ -7,10 +7,11 @@ function Summary() {
             <Headline headline="We Are ROTO" />
 
             <div className="row summary1">
+
                 <div className="col-sm-12 col-lg-4 text-center" >
                     <h3>What We're About</h3>
-
-                    <p style={{ fontSize: 18 }}>The ROTO Centre was established as a non-
+                    <p style={{ fontSize: 18 }}>
+                        The ROTO Centre was established as a non-
                         profit organization in 2016 when Mpho
                         Matthews, the founder, joined up with other
                         individuals wanting to create a safe place
@@ -25,9 +26,9 @@ function Summary() {
                         West, serving more than 20 families each
                         day between Monday to Saturday with a
                         variety of programs and services.
-
                     </p>
                 </div>
+                
                 <div className="col-sm-12 col-lg-6  text-center" >
                     <h3>Our Mission</h3>
                     <ul>

@@ -14,6 +14,7 @@ export const Teams = () => {
             <p className="text-center" style={{ fontSize: 20 }}>We operate a non-profit multipurpose facility governed by an active 4 member volunteer bored of directors. </p>
 
             <div className="row justify-content-center">
+                
                 <div className="card col-lg-2 col-md-6 col-sm-12 mt-4" style={{ width: '20rem', marginLeft: 25, marginRight: 25 }}>
                     <img src={Mpho} className="card-img-top mt-3 ml-3" style={{ width: '230px', height: '230px', borderRadius: '50%' }} />
                     <div className="card-body">
@@ -45,6 +46,7 @@ export const Teams = () => {
                         <p>Sharon Nyirenda</p>
                     </div>
                 </div>
+
             </div>
             <div style={{ marginTop: 190 }}><Footer /></div>
         </>

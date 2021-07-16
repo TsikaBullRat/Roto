@@ -7,7 +7,6 @@ import Footer from './Pieces/Footer';
 function AboutUs() {
 
     return (
-
         <>
             <Background />
             <Goals />
