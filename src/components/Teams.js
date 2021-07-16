@@ -4,6 +4,7 @@ import Footer from './Pieces/Footer';
 import Tshegofatso from '../assets/deputy chairperson -Tshegofatso Modise.jpeg'
 import Kedibone from '../assets/treasurer-Kedibone Lekgetho.jpeg'
 import Sharon from '../assets/acting secretary- Sharon Nyirenda.jpeg'
+import Mpho from '../assets/founder and manager-Mpho Matthews.jpg'
 
 
 export const Teams = () => {
@@ -15,7 +16,7 @@ export const Teams = () => {
 
             <div className="row justify-content-center">
                 <div className="card col-lg-2 col-md-6 col-sm-12 mt-4" style={{ width: '20rem', marginLeft: 25, marginRight: 25 }}>
-                    <img src={profile} className="card-img-top mt-3 ml-3" style={{ width: '230px', height: '230px', borderRadius: '50%' }} />
+                    <img src={Mpho} className="card-img-top mt-3 ml-3" style={{ width: '230px', height: '230px', borderRadius: '50%' }} />
                     <div className="card-body">
                         <h5>Founder And Manager:</h5>
                         <p>Mpho Matthews  </p>

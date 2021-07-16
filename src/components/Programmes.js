@@ -25,8 +25,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4" style={{ width: '21rem' }}>
                         <img src={preventive} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title">Preventive health care and education </h5> <br></br>
-                            <p className="card-text">Our aim is to give adive to people on a social or personal level. In assisting and guiding clients, especially by a trained person on a proffessional basis, to resolve especially personal,social,or pysychological problems and difficulties.</p>
+                            <h5 className="card-title">Preventive health care and education </h5>
+                            <p className="card-text">Preventive health care deals with the prevention of illness to decrease the burden of disease and associated risks factors.Teaching youth,adults, and communities about healthy behavior and lifestyles is one way we can decrease risky behavior.Education is the key to understanding behavior.</p>
 
                         </div>
                     </div>
@@ -34,8 +34,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4" style={{ width: '21rem' }}>
                         <img src={nutritious} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title">Nutritiuos in-centre meals </h5> <br></br>
-                            <p className="card-text">Training is teaching ,or developing in oneself or others , any skills and knowledge or fitness that relates to a specific ueseful competencies. Training is the process of learning the skills that you need for a particular job or activity.</p>
+                            <h5 className="card-title">Nutritiuos in-centre meals </h5>
+                            <p className="card-text">Nutrition is how food affects the health of the body.Food is comprised of macronutrients including protiein,carbohydrate and fat that not only offer calories to feul the body and give it energy but play specific roles in maintaining health.</p>
 
                         </div>
                     </div>
@@ -43,8 +43,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4 " style={{ width: '21rem' }}>
                         <img src={crisis} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title">Crisis intervention and support group</h5> <br></br>
-                            <p className="card-text">Community services is unpaid work performed by a person or group of people for the benefit and betterment of their community without any form of compensation. Community services is not always performed on a voluntary basis and may be compulsory per situation.</p>
+                            <h5 className="card-title">Crisis intervention and support group</h5>
+                            <p className="card-text">Crisis intervention also refers to the methods used to offer immediate,short-term help to individuals who experience an event that produces emotional, mental, physical, and behavioral distress or problems.</p>
 
                         </div>
                     </div>
@@ -56,8 +56,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4" style={{ width: '21rem' }}>
                         <img src={leisure} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title">Leisure activities,recreation</h5> <br></br>
-                            <p className="card-text">Our aim is to give adive to people on a social or personal level. In assisting and guiding clients, especially by a trained person on a proffessional basis, to resolve especially personal,social,or pysychological problems and difficulties.</p>
+                            <h5 className="card-title">Leisure activities,recreation</h5>
+                            <p className="card-text">Leisure refers to the free time that people can spend away from their everyday responsibilities to rest,relax and enjoy life.Recreation acivities are walking, swimming, meditation, reading playing games and dancing.</p>
 
                         </div>
                     </div>
@@ -65,8 +65,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4" style={{ width: '21rem' }}>
                         <img src={educational} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title">Educational and weekend classes </h5> <br></br>
-                            <p className="card-text">Training is teaching ,or developing in oneself or others , any skills and knowledge or fitness that relates to a specific ueseful competencies. Training is the process of learning the skills that you need for a particular job or activity.</p>
+                            <h5 className="card-title">Educational and weekend classes </h5>
+                            <p className="card-text">The act or process of imparting or acquiring general knowledge, developing the powers of reasoning and judgement ,and generally of preparing oneself or others intellectually for mature life .</p>
 
                         </div>
                     </div>
@@ -74,8 +74,8 @@ export const Programmes = () => {
                     <div className="card ml-3 mt-4 " style={{ width: '21rem' }}>
                         <img src={community} className="card-img-top" alt="..." style={{ height: '210px' }} />
                         <div className="card-body">
-                            <h5 className="card-title"> Community Play Times</h5> <br></br>
-                            <p className="card-text">Community services is unpaid work performed by a person or group of people for the benefit and betterment of their community without any form of compensation. Community services is not always performed on a voluntary basis and may be compulsory per situation.</p>
+                            <h5 className="card-title"> Community Play Times</h5>
+                            <p className="card-text">A group of people with a common characteristic or interest living together within a larger society a community .</p>
 
                         </div>
                     </div>

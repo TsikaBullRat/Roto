@@ -30,10 +30,8 @@ export const Contacts = () => {
 
                             <div className="mt-4">
                                 <div className='Space-around'> <i className="bi bi-envelope-fill"></i> mphomatthews597@gmail.com</div>
-                                <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221<br></br></div>
-                                <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Barkley West <br></br></div>
-                            
-                               
+                                <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0630253221</div>
+                                <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i>3182 Dahlia Street,De Beershoogte,Barkley West</div>
                             </div>
                         </div>
                     </div>
@@ -43,11 +41,11 @@ export const Contacts = () => {
                         <div className="mt-5">
                             <form onSubmit={sendEmail} className="form">
                                 <input type="email" placeholder="Email" className="form-control w-50" name="email" aria-describedby="emailHelp" />
-                                <input type="text" placeholder="Subject" className="form-control w-50 mt-3" name="subject" aria-describedby="emailHelp" /> <br></br>
-                                <textarea className="form control w-50 mt-3 ml-0" name="matter" rows="3" placeholder="Message"></textarea> <br></br>
+                                <input type="text" placeholder="Subject" className="form-control w-50 mt-3" name="subject" aria-describedby="emailHelp" />
+                                <textarea className="form control w-50 mt-3 ml-0" name="matter" rows="3" placeholder="Message"></textarea>
                                 <div className="d-flex">
-                                    <button name="submit" type="submit" className="btn ml-0 mr-2">Send</button> <br></br>
-                                    <button name="reset" type="reset" className="btn ml-2 mr-2">Reset</button> <br></br>
+                                    <button name="submit" type="submit" className="btn ml-0 mr-2">Send</button>
+                                    <button name="reset" type="reset" className="btn ml-2 mr-2">Reset</button>
                                 </div>
                             </form>
                         </div>

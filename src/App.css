@@ -8,8 +8,8 @@ body{
   padding: 0 -150px;*/
 }
 .logos{
-padding-top:50px;
-margin-left: 30%;
+padding-top:45px;
+margin-left:45%;
 }
 .Space-around{ 
    margin-top: 6px;
@@ -86,7 +86,6 @@ i{
   height: auto;
 }
 
-
 .deco_box_home{
   display: block;
   height:300px;
@@ -97,7 +96,7 @@ margin-left:60%;
 }
 
 .mt-5{
-padding-top: 5%;
+padding-top:2%;
 }
 .back{
   background:#ffffff;
@@ -188,7 +187,7 @@ padding-top: 5%;
   height: 40px;
 }
 .summary1{
-  margin-left: 12%;
+  margin-left:13%;
 }
 .background{
   padding: 0 20%;
